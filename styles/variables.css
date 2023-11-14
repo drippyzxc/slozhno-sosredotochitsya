@@ -2,3 +2,12 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --main-font: 'IBM Plex Mono', sans-serif;
+  --main-size: 18px;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
