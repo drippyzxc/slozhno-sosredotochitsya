@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="color-scheme" content="dark light" />
         <title>Сложно сосредоточиться</title>
-        <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./styles/globals.css" />
         <link rel="stylesheet" href="./fonts/fonts.css" />
         <link rel="stylesheet" href="./styles/variables.css" />
         <link rel="stylesheet" href="./styles/style.css" />
         <link rel="stylesheet" href="./styles/dark.css" />
         <link rel="stylesheet" href="./styles/light.css" />
-        <link rel="stylesheet" href="./styles/globals.css" />
     </head>
     <body class="page">
         <header class="header decorated-zone">
@@ -35,7 +35,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="rec-label"></div>
+            <div class="rec-label" aria-hidden="true"></div>
             <h1 class="header__title">no focus</h1>
             <div class="header__text-block">
                 <p class="header__text">
@@ -46,6 +46,7 @@
                 </p>
             </div>
         </header>
+        <main>
         <section class="section__first">
             <h2 class="section__title main__title-first">Почему сосредоточиться так сложно</h2>
             <div class="section__article-list article-first">
@@ -105,9 +106,9 @@
         <section class="section__third">
             <h2 class="section__title main__title-third">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
             <div class="section__article-list article-third">
+                <h3 class="section__article-title title-first title-decor">5 простых (на самом деле не очень) советов</h3>
                 <article class="section__article-item">
-                    <h3 class="section__article-title title-first title-decor">5 простых (на самом деле не очень) советов</h3>
-                    <h3 class="section__article-title title-third title-decor">Представьте небо и облака</h3>
+                    <h2 class="section__article-title title-third title-decor">Представьте небо и облака</h2>
                     <p class="section__article-text text-third">
                         Или листья в ручье. Тут дело в лёгкой медитации, которая помогает успокоиться. Ведь часто именно тревожные мысли о сложных задачах как раз и мешают эти сложные задачи делать. В такие моменты можно закрыть глаза и
                         представить, что чистое небо — это вы, а облака — тревожные мысли. И сколько бы их ни было — ясное небо всегда будет где-то там, за тучами, и никуда не денется. Это упражнение поможет вернуться в настоящий момент, а
@@ -122,7 +123,7 @@
                     </p>
                 </article>
                 <article class="section__article-item">
-                    <h3 class="section__article-title title-third title-decor">Прогуляйтесь</h3>
+                    <h4 class="section__article-title title-third title-decor">Прогуляйтесь</h4>
                     <p class="section__article-text text-third">
                         Или даже пробегитесь. Лучше найти парк или лес: один эксперимент <a href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank" class="section__artcle-text-link">показал</a>, что
                         созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше
@@ -130,14 +131,14 @@
                     </p>
                 </article>
                 <article class="section__article-item">
-                    <h3 class="section__article-title title-third title-decor">Хорошо ешьте</h3>
+                    <h5 class="section__article-title title-third title-decor">Хорошо ешьте</h5>
                     <p class="section__article-text text-third">
                         Мы — не ваша бабушка, но это правда важно. Выбирайте продукты, которые препятствуют резким скачкам сахара в крови. Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый
                         рис, хлеб из цельнозерновой пшеницы.
                     </p>
                 </article>
                 <article class="section__article-item">
-                    <h3 class="section__article-title title-third title-decor">Читайте</h3>
+                    <h6 class="section__article-title title-third title-decor">Читайте</h6>
                     <p class="section__article-text text-third">
                         Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы прочитать пост в соцсети, достаточно нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько часов и круто
                         тренирует направленное внимание.
@@ -146,7 +147,7 @@
             </div>
         </section>
         <section class="section__images">
-            <h3 class="section__article-title title-fourth title-decor">А можно в картинках?</h3>
+            <h2 class="section__article-title title-fourth title-decor">А можно в картинках?</h2>
             <div class="section__image-list">
                 <div class="first-image">
                     <img src="images/sunset.png" alt="sunset" class="image__item" loading="lazy" />
@@ -165,8 +166,9 @@
                 </div>
             </div>
         </section>
+        </main>
         <footer class="footer decorated-zone">
-            <h4 class="footer__title">focus</h4>
+            <h2 class="footer__title">focus</h2>
         </footer>
         <script src="./scripts/script.js"></script>
     </body>

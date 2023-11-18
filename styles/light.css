@@ -1,3 +1,16 @@
+@media (prefers-color-scheme: light) {
+  :root{
+    --main-color: #353430;
+    --second-color: #353430;;
+    --title-color: #F1B2CE;
+    --background-color: #FFF1F7;
+    --text-color: #353430;
+    --second-text-color: #353430;
+    --block-color: #FF8DCB;
+    --cover-image: url(/images/cover-image-light.png);
+  }
+}
+
 .page.theme_light {
   --main-color: #353430;
   --second-color: #353430;;
