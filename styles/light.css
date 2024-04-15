@@ -7,7 +7,11 @@
     --text-color: #353430;
     --second-text-color: #353430;
     --block-color: #FF8DCB;
+<<<<<<< HEAD
     --cover-image: url(../images/cover-image-light.png);
+=======
+    --cover-image: url(/images/cover-image-light.png);
+>>>>>>> 30665858b9df1315b76bdfd5ee52455864446b8f
   }
 }
 
@@ -19,7 +23,11 @@
   --text-color: #353430;
   --second-text-color: #353430;
   --block-color: #FF8DCB;
+<<<<<<< HEAD
   --cover-image: url(../images/cover-image-light.png);
+=======
+  --cover-image: url(/images/cover-image-light.png);
+>>>>>>> 30665858b9df1315b76bdfd5ee52455864446b8f
 }
 
 .page.theme_light .rec-label {

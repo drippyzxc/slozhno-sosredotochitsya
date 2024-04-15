@@ -8,7 +8,11 @@
     --block-color: #FF0070;
     --text-color: #000028;
     --second-text-color: #F1B2CE;
+<<<<<<< HEAD
     --cover-image: url(../images/cover-image-dark.png);
+=======
+    --cover-image: url(/images/cover-image-dark.png);
+>>>>>>> 30665858b9df1315b76bdfd5ee52455864446b8f
   }
 }
 
@@ -21,5 +25,9 @@
   --block-color: #FF0070;
   --text-color: #000028;
   --second-text-color: #F1B2CE;
+<<<<<<< HEAD
   --cover-image: url(../images/cover-image-dark.png);
+=======
+  --cover-image: url(/images/cover-image-dark.png);
+>>>>>>> 30665858b9df1315b76bdfd5ee52455864446b8f
 }
