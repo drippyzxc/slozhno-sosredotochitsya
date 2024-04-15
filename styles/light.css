@@ -7,7 +7,7 @@
     --text-color: #353430;
     --second-text-color: #353430;
     --block-color: #FF8DCB;
-    --cover-image: url(/images/cover-image-light.png);
+    --cover-image: url(../images/cover-image-light.png);
   }
 }
 
@@ -19,7 +19,7 @@
   --text-color: #353430;
   --second-text-color: #353430;
   --block-color: #FF8DCB;
-  --cover-image: url(/images/cover-image-light.png);
+  --cover-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .rec-label {

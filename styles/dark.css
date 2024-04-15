@@ -8,7 +8,7 @@
     --block-color: #FF0070;
     --text-color: #000028;
     --second-text-color: #F1B2CE;
-    --cover-image: url(/images/cover-image-dark.png);
+    --cover-image: url(../images/cover-image-dark.png);
   }
 }
 
@@ -21,5 +21,5 @@
   --block-color: #FF0070;
   --text-color: #000028;
   --second-text-color: #F1B2CE;
-  --cover-image: url(/images/cover-image-dark.png);
+  --cover-image: url(../images/cover-image-dark.png);
 }
