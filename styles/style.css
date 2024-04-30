@@ -357,21 +357,25 @@
   .header__text-block {
       justify-self: end;
       align-items: start;
-      padding-right: 20px;
+      padding: 20px 2.8% 78px 10px;
+      
       margin-block-start: 63px;
-      padding-bottom: 78px;
-      padding-left: 10px;
   }
   .header__text {
       width: 364px;
   }
   .article-first {
       padding-top: 60px;
-      padding-right: 20.19px;
+      padding-right: 2.629vw;
   }
   .article-second {
       padding: 20px;
   }
+
+  .article-third {
+    padding-right: 2.629vw;
+  }
+
   .section__content-list {
       display: flex;
       flex-direction: column;
@@ -435,7 +439,7 @@
       height: 1024px;
       width: 100%;
       max-width: 768px;
-      margin-top: 55px;
+      margin-top: 61px;
   }
 }
 @media (max-width: 375px) {
